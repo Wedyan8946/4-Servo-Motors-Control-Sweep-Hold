@@ -18,6 +18,7 @@ The circuit was designed and simulated on Tinkercad to ensure safe wiring and sh
 
 ## 💻 Arduino Code
 #include<Servo.h>
+
 Servo servo1;
 Servo servo2;
 Servo servo3;
