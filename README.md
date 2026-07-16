@@ -43,24 +43,37 @@ void setup()
   
   {
     servo1.write(i);
+    
     servo2.write(i);
+    
     servo3.write(i);
+    
     servo4.write(i);
+    
     delay(5);
   }
   
   for(int i=180;i>=0;i--)
   {
     servo1.write(i);
+    
     servo2.write(i);
+    
     servo3.write(i);
+    
     servo4.write(i);
+    
      delay(5);
+     
   }
     servo1.write(90);
+    
     servo2.write(90);
+    
     servo3.write(90);
+    
     servo4.write(90);
+    
   
 }
 
