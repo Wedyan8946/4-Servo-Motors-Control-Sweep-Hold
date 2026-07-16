@@ -7,7 +7,7 @@ In this task, 4 servo motors are programmed and wired with an Arduino Uno to ach
 * Sweep Motion: The four motors move synchronously back and forth for exactly 2 seconds.
 * Hold Motion: Once the 2-second duration ends, all motors move to and stay at a 90-degree angle (the exact center position) and hold their position.
 
-To achieve maximum precision, delayMicroseconds(5) is used inside the code to divide the sweep steps so that the entire animation lasts exactly 2 seconds.
+To achieve maximum precision, delay(5) is used inside the code to divide the sweep steps so that the entire animation lasts exactly 2 seconds.
 
 ---
 
@@ -39,7 +39,7 @@ void setup()
     delay(5);
   }
   
-  for(int i=180;i<=0;i--)
+  for(int i=180;i>=0;i--)
   {
     servo1.write(i);
     servo2.write(i);
